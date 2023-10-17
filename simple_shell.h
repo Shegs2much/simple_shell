@@ -121,4 +121,39 @@ char *_strdup(const char *);
 void _puts(char *);
 int _putchar(char);
 
+/* shell_errors.c */
+void e_puts(char *);
+int e_putchar(char);
+int put_fd(char c, int fd);
+int puts_fd(char *str, int fd);
+
+/* shell_errors1.c */
+int err_atoi(char *);
+void print_error(info_t *, char *);
+int print_d(int, int);
+char *convert_number(long int, int, int);
+void remove_comments(char *);
+
+/* shell_lists.c */
+list_t *add_node(list_t **, const char *, int);
+list_t *add_node_end(list_t **, const char *, int);
+size_t _print_list_str(const list_t *);
+int _delete_node_at_index(list_t **, unsigned int);
+void _free_list(list_t **);
+
+/* shell_lists1.c */
+size_t _list_len(const list_t *);
+char **list_to_strings(list_t *);
+size_t _print_list(const list_t *);
+list_t *node_starts_with(list_t *, char *, char);
+ssize_t _get_node_index(list_t *, list_t *);
+
+/* shell_vars.c */
+int _is_chain(info_t *, char *, size_t *);
+void _check_chain(info_t *, char *, size_t *, size_t, size_t);
+int _replace_alias(info_t *);
+int _replace_vars(info_t *);
+int _replace_string(char **, char *);
+
+
 #endif
