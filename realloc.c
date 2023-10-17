@@ -3,9 +3,9 @@
 /**
  * _memset - fills memory with a constant byte
  * @s: the pointer to the memory area
- * @b: the byte to fill *s with  tired of this
+ * @b: the byte to fill *s with  t th this
  * @n: the amount of bytes to be filled
- * Return: (s) a pointer to the memory area s
+ * Return: (s) a pointer to the memory area/brain esque
  */
 char *_memset(char *s, char b, unsigned int n)
 {
