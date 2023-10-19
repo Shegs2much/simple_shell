@@ -1,1 +1,1 @@
-This code contains solutions to the simple_shell project of ALXSE.
+Solution to the C- simple shell tasks at ALX SE
