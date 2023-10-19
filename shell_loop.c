@@ -44,7 +44,6 @@ int hsh(info_t *info, char **av)
 }
 
 /**
-<<<<<<< HEAD
  * find_builtin - finds a builtin command
  * @info: the parameter & return info struct
  *
@@ -52,7 +51,6 @@ int hsh(info_t *info, char **av)
  *			0 if builtin executed successfully,
  *			1 if builtin found but not successful,
  *			-2 if builtin signals exit()
-=======
  */
 int find_builtin(info_t *info)
 {
@@ -111,11 +109,7 @@ void find_cmd(info_t *info)
 	else
 	{
 		if ((interactive(info) || _getenv(info, "PATH=")
-<<<<<<< HEAD
 			|| info->argv[0][0] == '/') && is_cmd(info, info->argv[0]))
-=======
-					|| info->argv[0][0] == '/') && is_cmd(info, info->argv[0]))
->>>>>>> f0c225699309feab14f2c36b42a09bc922803a78
 			fork_cmd(info);
 		else if (*(info->arg) != '\n')
 		{

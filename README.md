@@ -1,1 +1,1 @@
-simple sheLl for shegz
+simple_shell project for Jeffery and Oluwasegun
