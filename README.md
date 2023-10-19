@@ -1,1 +1,1 @@
-simple_shell project for Jeffery and Oluwasegun
+This code contains solutions to the simple_shell project of ALXSE.
