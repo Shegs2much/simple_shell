@@ -1,1 +1,1 @@
-Solution to the C- simple shell tasks at ALX SE
+ so this is a simple shell readme for the project by shegz tmenu.. with a bit of garnishing
